@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --primary-color: #1F2937;
+    font-family: 'Permanent Marker', cursive; 
+}
+
+body {
+    margin: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-image: url(/images/startrek.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav h1 {
+    margin: 1rem;
+}
+
+nav img {
+    height: 50px;
+    align-self: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 1rem;
+    text-align: center;
+}
+
+textarea, #output {
+    border: 1px solid black;
+    display: block;
+    min-height: 8vh;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    font-family: inherit;
+    font-size: larger;
+    background-color: #F3F4F6;
+}
+
+#output {
+    margin-top: 1rem;
+    /* background-color: white; */
+    text-align: left;
+}
+
+button {
+    padding: 1rem 2rem;
+    margin-top: 0.5rem;
+    background-color: rgb(10, 15, 10);
+    border: none;
+    font-family: inherit;
+    font-size: larger;
+    color: #EC1C24;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+footer {
+    max-width: 600px;
+    text-align: center;
+    color: #FBF4BE;
+    font-size: large;
+}
+
+footer p {
+    /* padding: 1rem; */
+    margin: 0rem 2rem;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}

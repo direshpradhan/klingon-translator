@@ -9,7 +9,7 @@ function constructUrl(text) {
 }
 
 function errorHandler(error) {
-    alert("Please enter some text to translate!!");
+    alert("Something is wrong with the server. Please try again after sometime!!");
 }
 
 function clickEventHandler() {
@@ -17,8 +17,9 @@ function clickEventHandler() {
     fetch(constructUrl(inputText))
     .then(request => request.json())
     .then(json => {
-        var translatedText = json.contents.translated;
-        output.innerText = translatedText;
+        // var translatedText = json.contents.translated;
+        // output.innerText = translatedText;
+        console.log(json.contents.translated)
     })
     .catch(errorHandler)
 }

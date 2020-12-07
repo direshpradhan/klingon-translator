@@ -17,9 +17,9 @@ function clickEventHandler() {
     fetch(constructUrl(inputText))
     .then(request => request.json())
     .then(json => {
-        // var translatedText = json.contents.translated;
-        // output.innerText = translatedText;
-        console.log(json.contents.translated)
+        var translatedText = json.contents.translated;
+        output.innerText = translatedText;
+        // console.log(json.contents.translated)
     })
     .catch(errorHandler)
 }

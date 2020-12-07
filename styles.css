@@ -21,10 +21,14 @@ nav {
     color: white;
     text-align: center;
     padding: 1rem;
+    border: 1px solid #F3F4F6;
+    max-width: 300px;
+    margin: auto;
 }
 
 nav h1 {
     margin: 1rem;
+    
 }
 
 nav img {
@@ -47,7 +51,7 @@ textarea, #output {
     margin: 1rem 0rem;
     font-family: inherit;
     font-size: larger;
-    background-color: #F3F4F6;
+    background-color:#FFFBEB;
 }
 
 #output {
